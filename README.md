@@ -1,4 +1,6 @@
-# sustainability-of-recsys
+# RecSys Carbon Radar : Predicting Carbon Footprint of Recommendation System Algorithms
+
+Repository for the paper RecSys Carbon Radar: Predicting Carbon Footprint of Recommendation System Algorithms.
 
 The system monitors the emissions produced by a recommendation algorithm when applied to a specific dataset. It executes the model using either the default parameter settings or by conducting hyperparameter tuning through grid search. Additionally, it records the metrics and parameter configurations from each run.
 
