@@ -6,70 +6,7 @@ CONFIG = {
 								'LFM-1b_artist_20U50I',
 								'movielens_1m'
 							],
-	'MODELS':				#[
-								# General Recommendation
-								#'ItemKNN', #-> FORZATO K=20
-								#'Pop',
-								#'Random', #NON VA -> GPU e CPU
-								#'SimpleX',
-								# Matrix fact & Linear
-								#'ADMMSLIM', # NON VA ->TERMINA CON ERRORE
-								#'BPR',
-								#'DMF',
-								#'ENMF',
-								#'FISM',
-								#'NCEPLRec',
-								#'SLIMElastic'#, NON VA -> CPU E GPU
-								# Deep Learning-based
-								#'CDAE',
-								#'ConvNCF',
-								#'DiffRec',
-								#'EASE', #NON VA -> TERMINA CON ERRORE
-								#'GCMC',
-								#'LDiffRec',
-								#'MacridVAE', #NON VA -> memoria
-								#'MultiDAE',
-								#'MultiVAE',
-								#'NAIS', #NON VA -> memoria
-								#'NeuMF',
-								#'NGCF',
-								#'NNCF',
-								#'LightGCN',
-								#'RecVAE', -> abortito
-								# Graph-based
-								#'DGCF',
-								#'LINE',
-								#'NCL', #-> INSTALLA MODULO FAISS
-								#'SGL',
-								#'SpectralCF',
-								# Knowledge-aware
-								#'CKE',
-								#'CFKG',
-								#'KGCN',
-								#'KGIN', -> Errore con la libreria torch
-								#'KGNNLS',
-								#'KTUP',
-								#'MKR',
-								#'RippleNet'
-
-
-
-								
-								#'BPR',
-								#'CFKG',
-								#'CKE',
-								#'DMF',
-								#'ItemKNN',
-								#'KGCN',
-								#'KGNNLS',
-								#'LINE',
-								#'MultiDAE',
-								#'LightGCN',
-								#'NGCF',
-								#'RippleNet',
-								#'DGCF'
-
-							#]
+	'MODELS':				
 							['BPR', 'CFKG', 'CKE', 'DMF', 'KGCN', 'KGNNLS', 'LINE', 'MultiDAE', 'LightGCN', 'NGCF', 'DGCF']
 ,
 	'LOG_FILE':				'log/carbon_tuning.log',
