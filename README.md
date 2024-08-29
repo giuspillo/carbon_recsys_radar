@@ -36,18 +36,10 @@ It needs the emission information produced by the scripts 1. and/or 2, then it g
 
 ## Datasets
 
+All the datasets can be found in the `recsys_data` folder, and they follow the structure required by [Recbole](https://recbole.io/atomic_files.html)
+
 * `recsys_data/movielens_1m`: dataset in the movie domain; it comes with knowledge information.
 * `recsys_data/ml-10m_50U10I`: dataset in the movie domain; it comes with knowledge information.
 * `recsys_data/amazon_books_60core_kg`: dataset in the book domain; it comes with knowledge information.
 * `recsys_data/LFM-1b_artist_20U50I`: dataset in the music domain; it comes with knowledge information.
 * `recsys_data/mind`: dataset in the news domain; there is no available knowledge information
-
-
-## Acknowledgments
-
-- **[Recbole](https://recbole.io/)**
-- **[CodeCarbon](https://mlco2.github.io/codecarbon/)**
-
-## License
-
-Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See `LICENSE.txt` for more information.
