@@ -18,27 +18,16 @@ The system monitors the emissions produced by a recommendation algorithm when ap
 
 1. src/tuning_tracker.py performs hyperparameter tuning on a specified algorithm and dataset (both provided as script arguments), through grid search.
 
-NOTES:
-- Available models and datasets are defined in the src/config/global_config.py file.
-- Grid-search params values are defined in the src/config/hyperparam folder.
-- Results are stored in the results folder.
-
 **Example**
 ```python
 $ python3 src/tuning_tracker.py --dataset=movielens_1m --model=ItemKNN
 ```
 2. src/default_tracker.py tracks the emissions of a specified algorithm with default parameters on a given dataset, both provided as script arguments.
 
-NOTES:
-- Available models and datasets are defined in the src/config/global_config.py file.
-- Feafult parameter values are definded in the src/config/params_config.py file.
-- Results are store in the results_shared folder.
-
 **Example**
 ```python
 $ python3 src/default_tracker.py --dataset=movielens_1m --model=ItemKNN
 ```
-
 
 3. notebooks/model-building.ipynb is used to train and test the regression models of the paper, and produce the graphs reported in the paper.
 
