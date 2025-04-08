@@ -1,6 +1,6 @@
 # RecSys CarbonAtor : Predicting Carbon Footprint of Recommendation System Algorithms
 
-### [Repository link!](https://github.com/giuspillo/carbon_recsys_radar)
+### [Public repository link!](https://github.com/giuspillo/carbon_recsys_radar)
 
 Repository for the paper RecSys CarbonAtor: Predicting Carbon Footprint of Recommendation System Algorithms.
 
