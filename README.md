@@ -1,5 +1,7 @@
 # RecSys CarbonAtor : Predicting Carbon Footprint of Recommendation System Algorithms
 
+### [Repository link!](https://github.com/giuspillo/carbon_recsys_radar)
+
 Repository for the paper RecSys CarbonAtor: Predicting Carbon Footprint of Recommendation System Algorithms.
 
 The system monitors the emissions produced by a recommendation algorithm when applied to a specific dataset. It executes the model using either the default parameter settings or by conducting hyperparameter tuning through grid search. Additionally, it records the metrics and parameter configurations from each run.
